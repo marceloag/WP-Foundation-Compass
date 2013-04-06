@@ -12,13 +12,12 @@
 
 					<article <?php post_class() ?> id="post-<?php the_ID(); ?>">
 
-						<h2><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
-
 						<small><?php include (TEMPLATEPATH . '/_/inc/meta.php' ); ?></small>
-						<figure class="large-4 columns"> 
-							 <?php the_post_thumbnail('ultimas');?>
+						<figure class="large-3 columns"> 
+							 <?php the_post_thumbnail();?>
 						</figure>
-						<div class="entry large-8 columns">
+						<div class="entry large-9 columns">
+							<h2><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
 							<?php the_content(); ?>
 						</div>
 
