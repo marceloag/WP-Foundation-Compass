@@ -15,8 +15,10 @@
 						<h2><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
 
 						<small><?php include (TEMPLATEPATH . '/_/inc/meta.php' ); ?></small>
-
-						<div class="entry">
+						<figure class="large-4 columns"> 
+							 <?php the_post_thumbnail('ultimas');?>
+						</figure>
+						<div class="entry large-8 columns">
 							<?php the_content(); ?>
 						</div>
 
