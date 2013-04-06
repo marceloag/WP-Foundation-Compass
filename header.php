@@ -75,7 +75,7 @@
 </head>
 <body>
 	<div class="row">
-		<div class="panel">Hola</div>
+		<div class="panel">Holasas</div>
 	</div>
 		
 
