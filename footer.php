@@ -14,7 +14,8 @@
   '.js><\/script>')
 </script>
   
-<script src="js/foundation/foundation.js"></script>
+<script src="<?php bloginfo('template_directory'); ?>/js/foundation/foundation.js"></script>
+<script src="<?php bloginfo('template_directory'); ?>/js/foundation/foundation.orbit.js"></script>
 
  <!--
  	<script src="js/foundation/foundation.alerts.js"></script>
@@ -33,7 +34,7 @@
 -->
 	
 <script>
-    $(document).foundation();
+    $(document).foundation('orbit',{bullets:false});
 </script>
 
 <script src="<?php bloginfo('template_directory'); ?>/_/js/functions.js"></script>

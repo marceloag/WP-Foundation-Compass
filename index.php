@@ -2,6 +2,11 @@
 
 <div class="row">
 	<div class="large-8 columns">
+		<ul data-orbit>
+			<li><img src="http://fakeimg.pl/960x300/00CED1/FFF/?text=Slide+01"></li>
+			<li><img src="http://fakeimg.pl/960x300/00CED1/FFF/?text=Slide+02"></li>
+			<li><img src="http://fakeimg.pl/960x300/00CED1/FFF/?text=Slide+03"></li>
+		</ul>
 			<div class="panel">
 					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
@@ -9,7 +14,7 @@
 
 						<h2><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
 
-						<?php include (TEMPLATEPATH . '/_/inc/meta.php' ); ?>
+						<small><?php include (TEMPLATEPATH . '/_/inc/meta.php' ); ?></small>
 
 						<div class="entry">
 							<?php the_content(); ?>
