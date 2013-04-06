@@ -1,5 +1,5 @@
-<div id="sidebar">
-
+<div id="sidebar" class="large-4 columns">
+<div class="panel">
     <?php if (function_exists('dynamic_sidebar') && dynamic_sidebar('Sidebar Widgets')) : else : ?>
     
         <!-- All this stuff in here only shows up if you DON'T have any widgets active in this zone -->
@@ -36,4 +36,5 @@
 	
 	<?php endif; ?>
 
+</div>
 </div>

@@ -1,5 +1,9 @@
-		<footer>
-
+		<footer >
+			<div class="row">
+				<div class="panel large-12 columns">
+					#Footer
+				</div>
+			</div>
 		</footer>
 
 <?php wp_footer(); ?>

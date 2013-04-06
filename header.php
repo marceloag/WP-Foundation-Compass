@@ -76,7 +76,9 @@
 <body>
 	<div class="row">
 		<div class="large-12 columns">
-			<h2><?php echo bloginfo('name'); ?></h2>
+			<div class="panel">
+				<h2><?php echo bloginfo('name'); ?></h2>
+			</div>
 		</div>
 	</div>
 		
