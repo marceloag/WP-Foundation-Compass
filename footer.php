@@ -10,7 +10,7 @@
 
 <script>
   document.write('<script src=' +
-  ('__proto__' in {} ? '<?php bloginfo("template_directory"); ?>js/vendor/jquery' : '<?php bloginfo("template_directory"); ?>js/vendor/zepto') +
+  ('__proto__' in {} ? '<?php bloginfo("template_directory"); ?>/js/vendor/jquery' : '<?php bloginfo("template_directory"); ?>/js/vendor/zepto') +
   '.js><\/script>')
 </script>
   
