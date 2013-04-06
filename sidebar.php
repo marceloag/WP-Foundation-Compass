@@ -6,21 +6,21 @@
 
     	<?php get_search_form(); ?>
     
-    	<?php wp_list_pages('title_li=<h2>Pages</h2>' ); ?>
+    	<?php wp_list_pages('title_li=<h5>Pages</h5>' ); ?>
     
-    	<h2>Archives</h2>
+    	<h5>Archives</h5>
     	<ul>
     		<?php wp_get_archives('type=monthly'); ?>
     	</ul>
         
-        <h2>Categories</h2>
+        <h5>Categories</h5>
         <ul>
     	   <?php wp_list_categories('show_count=1&title_li='); ?>
         </ul>
         
     	<?php wp_list_bookmarks(); ?>
     
-    	<h2>Meta</h2>
+    	<h5>Meta</h5>
     	<ul>
     		<?php wp_register(); ?>
     		<li><?php wp_loginout(); ?></li>
@@ -28,7 +28,7 @@
     		<?php wp_meta(); ?>
     	</ul>
     	
-    	<h2>Subscribe</h2>
+    	<h5>Subscribe</h5>
     	<ul>
     		<li><a href="<?php bloginfo('rss2_url'); ?>">Entries (RSS)</a></li>
     		<li><a href="<?php bloginfo('comments_rss2_url'); ?>">Comments (RSS)</a></li>

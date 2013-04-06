@@ -34,7 +34,7 @@
 	}
 	add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 
-    // CUSTOM TUHMBNAILS
+    // CUSTOM THUMBNAILS
 
     if ( function_exists( 'add_theme_support' ) ) { 
     add_theme_support( 'post-thumbnails' );
@@ -42,8 +42,10 @@
     }
 
     if ( function_exists( 'add_image_size' ) ) { 
-        add_image_size( 'slides', 960, 300,true );
+        add_image_size( 'slides', 960, 500,true );
     }
+
+    //
     
     add_theme_support( 'post-formats', array('aside', 'gallery', 'link', 'image', 'quote', 'status', 'audio', 'chat', 'video')); // Add 3.1 post format theme support.
 
