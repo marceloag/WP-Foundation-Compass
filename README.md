@@ -1,1 +1,1 @@
-* Wordpress + Zurb Foundation + Compass *
+# Wordpress + Zurb Foundation + Compass 
