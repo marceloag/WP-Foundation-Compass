@@ -7,10 +7,10 @@
 			<li><img src="http://fakeimg.pl/960x500/00CED1/FFF/?text=Slide+02"></li>
 			<li><img src="http://fakeimg.pl/960x500/00CED1/FFF/?text=Slide+03"></li>
 		</ul>
-			<div class="panel">
+			<div class="row">
 					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-					<article <?php post_class() ?> id="post-<?php the_ID(); ?>" class="row">
+					<article <?php post_class() ?> id="post-<?php the_ID(); ?>" class="row panel">
 
 						<small><?php include (TEMPLATEPATH . '/_/inc/meta.php' ); ?></small>
 						<figure class="large-3 columns"> 
@@ -18,14 +18,12 @@
 						</figure>
 						<div class="entry large-9 columns">
 							<h2><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
-							<?php the_content(); ?>
+							<?php the_excerpt(); ?>
 						</div>
 
 					</article>
 
 				<?php endwhile; ?>
-
-				<?php include (TEMPLATEPATH . '/_/inc/nav.php' ); ?>
 
 				<?php else : ?>
 
