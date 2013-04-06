@@ -12,9 +12,9 @@
 
 					<article <?php post_class() ?> id="post-<?php the_ID(); ?>" class="row">
 
-						<figure class="large-3 columns"> 
+						<div class="large-3 columns"> 
 							 <?php the_post_thumbnail();?>
-						</figure>
+						</div>
 						<div class="entry large-9 columns">
 							<small><?php include (TEMPLATEPATH . '/_/inc/meta.php' ); ?></small>
 							<h2><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
