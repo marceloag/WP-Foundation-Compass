@@ -74,9 +74,9 @@
 	<?php wp_head(); ?>
 </head>
 <body>
+<header class="panel">
 	<div class="row">
 		<div class="large-12 columns">
-			<div class="panel">
 				<div class="large-4 columns">
 					<!-- Titulo del Blog -->
 					<h2><?php echo bloginfo('name'); ?></h2>
@@ -85,9 +85,8 @@
 					<!-- Custom Menu -->
 					<?php wp_nav_menu( array('menu' => 'menu' )); ?>
 				</div>
-
-			</div>
 		</div>
 	</div>
+</header>
 		
 
