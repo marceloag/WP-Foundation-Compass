@@ -77,7 +77,15 @@
 	<div class="row">
 		<div class="large-12 columns">
 			<div class="panel">
-				<h2><?php echo bloginfo('name'); ?></h2>
+				<div class="large-4 columns">
+					<!-- Titulo del Blog -->
+					<h2><?php echo bloginfo('name'); ?></h2>
+				</div>
+				<div class="large-8 columns">
+					<!-- Custom Menu -->
+					<?php wp_nav_menu( array('menu' => 'menu' )); ?>
+				</div>
+
 			</div>
 		</div>
 	</div>
