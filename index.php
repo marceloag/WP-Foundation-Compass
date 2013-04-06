@@ -3,9 +3,9 @@
 <div class="row">
 	<div class="large-8 columns">
 		<ul data-orbit>
-			<li><img src="http://fakeimg.pl/960x300/00CED1/FFF/?text=Slide+01"></li>
-			<li><img src="http://fakeimg.pl/960x300/00CED1/FFF/?text=Slide+02"></li>
-			<li><img src="http://fakeimg.pl/960x300/00CED1/FFF/?text=Slide+03"></li>
+			<li><img src="http://fakeimg.pl/960x500/00CED1/FFF/?text=Slide+01"></li>
+			<li><img src="http://fakeimg.pl/960x500/00CED1/FFF/?text=Slide+02"></li>
+			<li><img src="http://fakeimg.pl/960x500/00CED1/FFF/?text=Slide+03"></li>
 		</ul>
 			<div class="panel">
 					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
