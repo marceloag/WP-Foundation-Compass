@@ -75,7 +75,7 @@
 </head>
 <body>
 	<div class="row">
-		<div class="panel">Hello!</div>
+		<div class="panel">Hola hola amiguitos!!</div>
 	</div>
 		
 
