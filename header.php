@@ -75,7 +75,9 @@
 </head>
 <body>
 	<div class="row">
-		<div class="panel">Holasas</div>
+		<div class="large-12 columns">
+			<h2><?php echo bloginfo('name'); ?></h2>
+		</div>
 	</div>
 		
 
