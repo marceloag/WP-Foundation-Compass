@@ -75,7 +75,7 @@
 </head>
 <body>
 	<div class="row">
-		<div class="panel">WP+Foundation+Compass+Sass</div>
+		<div class="panel">Hola</div>
 	</div>
 		
 
