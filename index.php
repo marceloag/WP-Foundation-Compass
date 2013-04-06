@@ -16,9 +16,9 @@
 							 <?php the_post_thumbnail();?>
 						</div>
 						<div class="entry large-9 columns">
-							<small><?php include (TEMPLATEPATH . '/_/inc/meta.php' ); ?></small>
 							<h2><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
-							<?php the_excerpt(); ?>
+								<?php the_excerpt(); ?>
+							<small><?php include (TEMPLATEPATH . '/_/inc/meta.php' ); ?></small>
 						</div>
 
 					</article>
