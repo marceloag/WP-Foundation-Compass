@@ -74,15 +74,8 @@
 	<?php wp_head(); ?>
 </head>
 <body>
-	<div id="up">
-		
-	</div>
-	<div id="navwrapper">
-		<div id="navcontainer"></div>
-			<a href="#" id="logo"></a>
-			<nav>
-               <?php wp_nav_menu( array( 'menu' => 'top' ) ); ?>
-			</nav>
+	<div class="row">
+		<div class="panel">Hello!</div>
 	</div>
 		
 
