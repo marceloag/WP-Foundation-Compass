@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1" /><!DOCTYPE html>
 
 <!--[if lt IE 7 ]> <html class="ie ie6 no-js" <?php language_attributes(); ?>> <![endif]-->
 <!--[if IE 7 ]>    <html class="ie ie7 no-js" <?php language_attributes(); ?>> <![endif]-->
@@ -10,7 +10,7 @@
 <head id="www-sitename-com" data-template-set="html5-reset-wordpress-theme" profile="http://gmpg.org/xfn/11">
 
 	<meta charset="<?php bloginfo('charset'); ?>">
-	
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	
@@ -61,17 +61,24 @@
 	
 	<meta name="google-site-verification" content="">
 	<meta name="author" content="Your Name Here">
-	<meta name="Copyright" content="Copyright Your Name Here 2011. All Rights Reserved.">
+	<meta name="Copyright" content="Copyright Your Name Here 2013. All Rights Reserved.">
 	<meta name="DC.title" content="Project Name">
 	<meta name="DC.subject" content="What you're about.">
 	<meta name="DC.creator" content="Who made this site.">
+
 	<link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/_/img/favicon.ico">
 	<link rel="apple-touch-icon" href="<?php bloginfo('template_directory'); ?>/_/img/apple-touch-icon.png">
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 	<script src="<?php bloginfo('template_directory'); ?>/_/js/modernizr-1.7.min.js"></script>
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
+
+<!-- Facebook Image -->
+	<link rel="image_src" href="" />
+<!-- Facebook Image -->
+
 	<?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>
 	<?php wp_head(); ?>
+
 </head>
 <body>
 <header class="panel">
