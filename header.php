@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 
-<!--[if lt IE 7 ]> <html class="ie ie6 no-js" <?php language_attributes(); ?>> <![endif]-->
-<!--[if IE 7 ]>    <html class="ie ie7 no-js" <?php language_attributes(); ?>> <![endif]-->
-<!--[if IE 8 ]>    <html class="ie ie8 no-js" <?php language_attributes(); ?>> <![endif]-->
-<!--[if IE 9 ]>    <html class="ie ie9 no-js" <?php language_attributes(); ?>> <![endif]-->
+<!--[if lt IE 7 ]> <html class="ie ie6 no-js lt-ie9 lt-ie8 lt-ie7" <?php language_attributes(); ?>> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7 no-js lt-ie9 lt-ie8" <?php language_attributes(); ?>> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8 no-js lt-ie9" <?php language_attributes(); ?>> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9 no-js lt-ie9" <?php language_attributes(); ?>> <![endif]-->
 <!--[if gt IE 9]><!--><html class="no-js" <?php language_attributes(); ?>><!--<![endif]-->
-<!-- the "no-js" class is for Modernizr. -->
 
 <head id="www-sitename-com" data-template-set="html5-reset-wordpress-theme" profile="http://gmpg.org/xfn/11">
 
@@ -58,7 +57,8 @@
 		         echo ' - page '. $paged; }
 		   ?>">
 	<meta name="description" content="<?php bloginfo('description'); ?>">
-	
+
+<!-- Meta Information -->
 	<meta name="google-site-verification" content="">
 	<meta name="author" content="Your Name Here">
 	<meta name="Copyright" content="Copyright Your Name Here 2013. All Rights Reserved.">
@@ -66,11 +66,33 @@
 	<meta name="DC.subject" content="What you're about.">
 	<meta name="DC.creator" content="Who made this site.">
 
+<!-- Stylesheets -->
 	<link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/_/img/favicon.ico">
 	<link rel="apple-touch-icon" href="<?php bloginfo('template_directory'); ?>/_/img/apple-touch-icon.png">
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
-	<script src="<?php bloginfo('template_directory'); ?>/_/js/modernizr-1.7.min.js"></script>
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
+
+<!-- Javascripts for IE Support -->
+	<script src="<?php bloginfo('template_directory'); ?>/_/js/modernizr-1.7.min.js"></script>
+	<script src="<?php bloginfo('template_directory'); ?>/js/vendor/jquery"></script>
+	<script src="<?php bloginfo('template_directory'); ?>/js/foundation/foundation.js"></script>
+	<script src="<?php bloginfo('template_directory'); ?>/js/foundation/foundation.orbit.js"></script>
+
+	 <!--
+	 	<script src="js/foundation/foundation.alerts.js"></script>
+		<script src="js/foundation/foundation.clearing.js"></script>
+		<script src="js/foundation/foundation.cookie.js"></script>
+		<script src="js/foundation/foundation.dropdown.js"></script>
+		<script src="js/foundation/foundation.forms.js"></script>
+		<script src="js/foundation/foundation.joyride.js"></script>
+		<script src="js/foundation/foundation.magellan.js"></script>
+		<script src="js/foundation/foundation.orbit.js"></script>
+		<script src="js/foundation/foundation.placeholder.js"></script>
+		<script src="js/foundation/foundation.reveal.js"></script>
+		<script src="js/foundation/foundation.section.js"></script>
+		<script src="js/foundation/foundation.tooltips.js"></script>
+		<script src="js/foundation/foundation.topbar.js"></script>
+	-->
 
 <!-- Facebook Image -->
 	<link rel="image_src" href="" />
