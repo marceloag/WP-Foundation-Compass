@@ -74,7 +74,7 @@
 
 <!-- Javascripts for IE Support -->
 	<script src="<?php bloginfo('template_directory'); ?>/_/js/modernizr-1.7.min.js"></script>
-	<script src="<?php bloginfo('template_directory'); ?>/js/vendor/jquery"></script>
+	<script src="<?php bloginfo('template_directory'); ?>/js/vendor/jquery.js"></script>
 	<script src="<?php bloginfo('template_directory'); ?>/js/foundation/foundation.js"></script>
 	<script src="<?php bloginfo('template_directory'); ?>/js/foundation/foundation.orbit.js"></script>
 
